@@ -37,10 +37,10 @@ jobs:
 
             # Save Artifact
             - name: Save artifact
-              uses: actions/download-artifact@v4
+              uses: actions/upload-artifact@v4
               with: 
                 name: AnimalshelterApplication
-                path: target/*.class
+                path: target/*.jar
 
     deploy:
         # needs: build
