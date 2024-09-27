@@ -21,6 +21,10 @@ jobs:
             - name: checkout repository
               uses: actions/checkout@v4
 
+            #Listar contenido de nuestra máquina virtual
+            - name: Contenido de la carpeta
+              run: ls -l
+
             #Configurar JDK 17
             - name: configure JDK 17
               uses: actions/setup-java@v1
