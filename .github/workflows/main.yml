@@ -13,3 +13,11 @@ jobs:
            #run: echo "Hola chicos estamos aprendiendo Github Actions" 
            run: |
             echo "Hola chicos estamos aprendiendo Github Actions" 
+        
+         - name: Que día es hoy
+           run: date
+
+         - name: Contenido de la carpeta
+           run: ls
+
+        
