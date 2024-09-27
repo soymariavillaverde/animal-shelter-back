@@ -18,6 +18,6 @@ jobs:
            run: date
 
          - name: Contenido de la carpeta
-           run: ls
+           run: ls -l
 
         

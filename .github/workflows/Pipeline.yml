@@ -39,5 +39,5 @@ jobs:
             - name: Save artifact
               uses: actions/download-artifact@v4
               with: 
-                name: AnimalShellter
+                name: AnimalshelterApplication
                 path: target/*.jar
