@@ -1,0 +1,15 @@
+name: First workflow
+
+on:
+    push:
+     branches: [main]
+
+jobs:
+    saludo_inicial:
+        runs-on: macos-13
+
+        steps:
+         - name: saludando
+           #run: echo "Hola chicos estamos aprendiendo Github Actions" 
+           run: |
+            echo "Hola chicos estamos aprendiendo Github Actions" 
