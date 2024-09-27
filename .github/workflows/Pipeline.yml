@@ -19,7 +19,7 @@ jobs:
 
             #Descargar el código a nuestra máquina virtual
             - name: checkout repository
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
 
             #Configurar JDK 11
             - name: configure JDK 11
@@ -37,7 +37,7 @@ jobs:
 
             # Save Artifact
             - name: Save artifact
-              uses: actions/download-artifact@v2
+              uses: actions/download-artifact@v4
               with: 
                 name: AnimalShellter
                 path: target/*.jar
