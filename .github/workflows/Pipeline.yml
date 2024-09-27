@@ -1,0 +1,18 @@
+name: Nuestra primera pipeline
+
+on:
+    push:
+        branches:
+            - main
+            # - dev
+            # - featrue/loquesea
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: fetch last commit
+              uses: actions/checkout@v4
+              with:
+                fetch-depth: 0
