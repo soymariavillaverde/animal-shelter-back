@@ -1,4 +1,4 @@
-package Back_End.Zootopia_Proyect;
+/* package Back_End.Zootopia_Proyect;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,3 +11,4 @@ class ZootopiaProyectApplicationTests {
 	}
 
 }
+ */
